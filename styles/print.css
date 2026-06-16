@@ -1,0 +1,16 @@
+nav{
+    display: none;
+}
+img{
+    display: none;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 480){
+    header, h1, footer{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,43 @@
+body{
+    display: grid;
+
+}
+img{
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+#image-flex{
+    display: flex;
+}
+
+@media screen and (min-width: 360px){
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul :hover{
+        font-weight: 700;;
+    }
+}
+
+@media screen and (min-width: 768px){
+    nav ul {
+        gap: 2rem;
+    }
+    nav ul :hover{
+        font-weight: 700;;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    nav ul { 
+        gap: 4em;
+    }
+    nav ul :hover{
+        font-weight: 700;;
+    }
+}
+
